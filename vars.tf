@@ -1,6 +1,6 @@
 variable "resource_group_name" { 
   description = "Nom du Resource Group" 
-  default     = "my-webapp-rg" 
+  default     = "my-webapp-rabii" 
 } 
  
 variable "location" { 
@@ -13,7 +13,7 @@ variable "app_service_plan_name" {
   default     = "my-free-appservice-plan" 
 } 
  
- 
+
 variable "webapp_name" { 
   description = "Nom de l'Azure Web App" 
   default     = "my-free-webapp" 
